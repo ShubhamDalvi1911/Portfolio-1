@@ -4,6 +4,13 @@ Personal portfolio website made with Django framework in the backend, and with C
 
 ## Screenshots
 
+![Home Page](ScreenShots/home.png)
+![About Page](ScreenShots/about.png)
+![Resume Page](ScreenShots/resume.png)
+![Skill Page](ScreenShots/skills.png)
+![Project Page](ScreenShots/project.png)
+![Certification Page](ScreenShots/certification.png)
+![Contact Page](ScreenShots/contact.png)
 
 
 ## Run Locally
