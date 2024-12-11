@@ -16,7 +16,7 @@ git clone https://github.com/Satyamkashid/Portfolio.git
 Go to the project directory
 
 ```bash
-  cd Django-portfilio-websitet
+  cd Portfolio
 ```
 
 MAKE  Migration
