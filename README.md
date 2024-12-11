@@ -10,7 +10,7 @@ Personal portfolio website made with Django framework in the backend, and with C
 Clone the project
 
 ```bash
-
+git clone https://github.com/Satyamkashid/Portfolio.git
 ```
 
 Go to the project directory
