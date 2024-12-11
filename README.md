@@ -5,6 +5,7 @@ Personal portfolio website made with Django framework in the backend, and with C
 ## Screenshots
 
 
+
 ## Run Locally
 
 Clone the project
