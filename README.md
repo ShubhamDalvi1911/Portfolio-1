@@ -1,45 +1,83 @@
-## My Personal Portfilio Website (Django)
+# Portfolio - FastAPI + React
 
-Personal portfolio website made with Django framework in the backend, and with CSS and Bootstrap for the frontend. It is a dynamic site so that you can control the content of the site through the admin area
+Modern portfolio website for **Satyam Kashid** built with FastAPI backend and React frontend.
 
-## Screenshots
+## 🚀 Quick Start
 
-![Home Page](ScreenShots/home.png)
-![About Page](ScreenShots/about.png)
-![Resume Page](ScreenShots/resume.png)
-![Skill Page](ScreenShots/skills.png)
-![Project Page](ScreenShots/projects.png)
-![Certification Page](ScreenShots/certifications.png)
-![Contact Page](ScreenShots/contact.png)
+### Prerequisites
+- Python 3.8+
+- Node.js 18+
+- npm or yarn
 
-
-## Run Locally
-
-Clone the project
+### Backend Setup
 
 ```bash
-git clone https://github.com/Satyamkashid/Portfolio.git
+cd backend
+python -m venv venv
+venv\Scripts\activate  # Windows
+pip install -r requirements.txt
+uvicorn app.main:app --reload
 ```
 
-Go to the project directory
+**Backend runs at:** http://localhost:8000  
+**API Docs:** http://localhost:8000/api/docs
+
+### Frontend Setup
 
 ```bash
-  cd Portfolio
+cd frontend
+npm install
+npm run dev
 ```
 
-MAKE  Migration
+**Frontend runs at:** http://localhost:5173
 
-```bash
-  python manage.py makemigrations
+## 📁 Project Structure
+
+```
+Portfolio/
+├── backend/          # FastAPI backend
+├── frontend/         # React frontend
+└── README.md
 ```
 
-MAKE  Migration
+## ✨ Features
 
-```bash
-  python manage.py migrate     
-```
-Start the server
+- ✅ Modern React with Vite
+- ✅ FastAPI REST API
+- ✅ Responsive design (mobile, tablet, desktop)
+- ✅ Scroll spy navigation
+- ✅ Contact form with validation
+- ✅ Auto-generated API documentation
 
-```bash
-  python manage.py runserver     
-```
+## � Documentation
+
+- [Backend README](backend/README.md)
+- [Frontend README](frontend/README.md)
+
+## 🎨 Sections
+
+- Home - Hero section
+- About - Professional background
+- Resume - Education & experience
+- Skills - Technical skills
+- Projects - Portfolio projects
+- Certifications - Professional certifications
+- Contact - Contact form
+
+## 🔧 Running Without Database
+
+The backend is configured to run without database storage. Contact form submissions are logged to console.
+
+See [backend/SETUP_NO_DATABASE.md](backend/SETUP_NO_DATABASE.md) for details.
+
+## 👤 Author
+
+**Satyam Kashid**
+- LinkedIn: [satyamkashid](https://linkedin.com/in/satyamkashid)
+- GitHub: [Satyamkashid](https://github.com/Satyamkashid)
+- Email: satyamkashid11@gmail.com
+
+## � License
+
+MIT License

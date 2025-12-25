@@ -1,0 +1,245 @@
+.contact {
+    padding: 60px 20px;
+    background-color: #000;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #f1c40f;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px rgba(241, 196, 15, 0.5);
+    animation: fadeIn 1s ease-out;
+}
+
+.contact .contact-description {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 50px;
+    line-height: 1.6;
+}
+
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.contact-form {
+    background-color: #1a1a1a;
+    padding: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(241, 196, 15, 0.7);
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 1rem;
+    color: #ffdd00;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    outline: none;
+    transition: border-color 0.3s;
+    background-color: #fff;
+    color: #000;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #f1c40f;
+}
+
+.contact-form button.submit-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #f1c40f;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 100%;
+}
+
+.contact-form button.submit-btn:hover:not(:disabled) {
+    background-color: #ffd700;
+    transform: translateY(-3px);
+}
+
+.contact-form button.submit-btn:active {
+    background-color: #e0ac00;
+    transform: translateY(0);
+}
+
+.contact-form button.submit-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.alert-success {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.alert-error {
+    background-color: #f44336;
+    color: white;
+}
+
+.contact-details {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.contact-details h3 {
+    color: #ffdd00;
+    margin-bottom: 20px;
+}
+
+.contact-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-details ul li {
+    margin-bottom: 10px;
+}
+
+.contact-details a {
+    color: #f1c40f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+    color: #ffd700;
+}
+
+@media screen and (max-width: 768px) {
+    .contact {
+        padding: 40px 15px;
+    }
+
+    .contact .section-title {
+        font-size: 2rem;
+    }
+
+    .contact .contact-description {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    .contact-form {
+        width: 90%;
+        padding: 30px 20px;
+    }
+
+    .contact-form label {
+        font-size: 0.9rem;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 0.95rem;
+        padding: 10px;
+    }
+
+    .contact-form button.submit-btn {
+        font-size: 1.1rem;
+        padding: 10px 25px;
+    }
+
+    .contact-details {
+        font-size: 1rem;
+    }
+
+    .contact-details ul li {
+        font-size: 0.95rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact {
+        padding: 30px 10px;
+    }
+
+    .contact .section-title {
+        font-size: 1.8rem;
+    }
+
+    .contact .contact-description {
+        font-size: 0.95rem;
+    }
+
+    .contact-form {
+        width: 95%;
+        padding: 20px 15px;
+    }
+
+    .contact-form label {
+        font-size: 0.85rem;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .contact-form button.submit-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    .contact-details {
+        font-size: 0.95rem;
+    }
+
+    .contact-details h3 {
+        font-size: 1.2rem;
+    }
+
+    .contact-details ul li {
+        font-size: 0.9rem;
+    }
+
+    .alert {
+        font-size: 0.9rem;
+        padding: 12px;
+    }
+}

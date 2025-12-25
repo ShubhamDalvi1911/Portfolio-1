@@ -1,0 +1,120 @@
+#home {
+    background-image: url('/static/images/bg.png');
+    background-size: 200vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Hello {
+    color: #ffbd39;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif, Arial;
+    line-height: 1.8;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+    box-sizing: border-box;
+    margin-top: 156px;
+    display: block;
+}
+
+.Name {
+    font-size: 64px;
+    color: white;
+    line-height: 1.2;
+    font-weight: 800;
+    margin-bottom: 1.5rem !important;
+    margin-top: 1rem !important;
+    display: block;
+    font-family: "Poppins", sans-serif, Arial;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.Name span {
+    color: yellow;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif, Arial;
+    box-sizing: border-box;
+    font-size: 64px;
+}
+
+.Profession {
+    font-size: 30px;
+    color: white;
+    line-height: 1.2;
+    font-weight: 800;
+    margin-bottom: 1.5rem !important;
+    margin-top: 2rem !important;
+    display: block;
+    font-family: cursive;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.Profession span {
+    font-size: 30px;
+    color: white;
+    line-height: 1.2;
+    font-weight: 800;
+    margin-bottom: 1rem !important;
+    margin-top: 1rem !important;
+    display: block;
+    font-family: cursive;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Responsive Design for Home Section */
+@media screen and (max-width: 768px) {
+    #home {
+        background-size: cover;
+        padding: 30px 15px;
+    }
+
+    .Hello {
+        font-size: 16px;
+        margin-top: 50px;
+        letter-spacing: 2px;
+    }
+
+    .Name {
+        font-size: 36px;
+    }
+
+    .Name span {
+        font-size: 36px;
+    }
+
+    .Profession {
+        font-size: 20px;
+        margin-top: 1rem !important;
+    }
+
+    .Profession span {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Hello {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    .Name {
+        font-size: 28px;
+    }
+
+    .Name span {
+        font-size: 28px;
+    }
+
+    .Profession {
+        font-size: 18px;
+    }
+
+    .Profession span {
+        font-size: 18px;
+    }
+}

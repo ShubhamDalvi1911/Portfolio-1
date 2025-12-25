@@ -1,0 +1,141 @@
+.certifications {
+    padding: 60px 20px;
+    background: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.certifications .section-title {
+    font-size: 2.5rem;
+    color: #f1c40f;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px rgba(241, 196, 15, 0.5);
+}
+
+.certifications-description {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 50px;
+    line-height: 1.6;
+}
+
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.certification-card {
+    background: #282828;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certification-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(241, 196, 15, 0.7);
+}
+
+.certification-title {
+    font-size: 1.5rem;
+    color: #ffdd00;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px rgba(255, 221, 0, 0.7);
+}
+
+.certification-issuer {
+    font-size: 1rem;
+    color: #bbb;
+    margin-bottom: 15px;
+}
+
+.certification-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1c40f;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.certification-link:hover {
+    background-color: #ffd700;
+    transform: translateY(-3px);
+}
+
+.certification-link:active {
+    background-color: #e0ac00;
+    transform: translateY(0);
+}
+
+@media screen and (max-width: 768px) {
+    .certifications {
+        padding: 40px 15px;
+    }
+
+    .certifications .section-title {
+        font-size: 2rem;
+    }
+
+    .certifications-description {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    .certifications-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .certification-card {
+        padding: 18px;
+    }
+
+    .certification-title {
+        font-size: 1.3rem;
+    }
+
+    .certification-issuer {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .certifications {
+        padding: 30px 10px;
+    }
+
+    .certifications .section-title {
+        font-size: 1.8rem;
+    }
+
+    .certifications-description {
+        font-size: 0.95rem;
+    }
+
+    .certification-card {
+        padding: 15px;
+    }
+
+    .certification-title {
+        font-size: 1.2rem;
+    }
+
+    .certification-issuer {
+        font-size: 0.85rem;
+    }
+
+    .certification-link {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
